@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		219B5C5A2946F07600CE62C4 /* Namota Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Namota Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5C5A2946F07600CE62C4 /* Multiplication_Table_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiplication_Table_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		219B5C5D2946F07600CE62C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		219B5C5F2946F07600CE62C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		219B5C612946F07600CE62C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		219B5C662946F07700CE62C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		219B5C692946F07700CE62C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		219B5C6B2946F07700CE62C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		219B5C702946F07700CE62C4 /* Namota ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Namota ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5C702946F07700CE62C4 /* Multiplication_Table_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Multiplication_Table_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		219B5C742946F07700CE62C4 /* Namota_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namota_ProjectTests.swift; sourceTree = "<group>"; };
-		219B5C7A2946F07700CE62C4 /* Namota ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Namota ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5C7A2946F07700CE62C4 /* Multiplication_Table_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Multiplication_Table_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		219B5C7E2946F07700CE62C4 /* Namota_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namota_ProjectUITests.swift; sourceTree = "<group>"; };
 		219B5C802946F07700CE62C4 /* Namota_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namota_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		219B5C5B2946F07600CE62C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				219B5C5A2946F07600CE62C4 /* Namota Project.app */,
-				219B5C702946F07700CE62C4 /* Namota ProjectTests.xctest */,
-				219B5C7A2946F07700CE62C4 /* Namota ProjectUITests.xctest */,
+				219B5C5A2946F07600CE62C4 /* Multiplication_Table_Project.app */,
+				219B5C702946F07700CE62C4 /* Multiplication_Table_ProjectTests.xctest */,
+				219B5C7A2946F07700CE62C4 /* Multiplication_Table_ProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +99,9 @@
 		219B5C5C2946F07600CE62C4 /* Namota Project */ = {
 			isa = PBXGroup;
 			children = (
-				219B5C5D2946F07600CE62C4 /* AppDelegate.swift */,
-				219B5C5F2946F07600CE62C4 /* SceneDelegate.swift */,
-				219B5C612946F07600CE62C4 /* ViewController.swift */,
-				219B5C632946F07600CE62C4 /* Main.storyboard */,
+				219B5C9029471B3300CE62C4 /* System */,
+				219B5C8D29471B1300CE62C4 /* Controller */,
 				219B5C662946F07700CE62C4 /* Assets.xcassets */,
-				219B5C682946F07700CE62C4 /* LaunchScreen.storyboard */,
 				219B5C6B2946F07700CE62C4 /* Info.plist */,
 			);
 			path = "Namota Project";
@@ -127,12 +124,31 @@
 			path = "Namota ProjectUITests";
 			sourceTree = "<group>";
 		};
+		219B5C8D29471B1300CE62C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				219B5C612946F07600CE62C4 /* ViewController.swift */,
+				219B5C632946F07600CE62C4 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		219B5C9029471B3300CE62C4 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				219B5C5D2946F07600CE62C4 /* AppDelegate.swift */,
+				219B5C5F2946F07600CE62C4 /* SceneDelegate.swift */,
+				219B5C682946F07700CE62C4 /* LaunchScreen.storyboard */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		219B5C592946F07600CE62C4 /* Namota Project */ = {
+		219B5C592946F07600CE62C4 /* Multiplication_Table_Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 219B5C842946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota Project" */;
+			buildConfigurationList = 219B5C842946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Multiplication_Table_Project" */;
 			buildPhases = (
 				219B5C562946F07600CE62C4 /* Sources */,
 				219B5C572946F07600CE62C4 /* Frameworks */,
@@ -142,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = "Namota Project";
+			name = Multiplication_Table_Project;
 			productName = "Namota Project";
-			productReference = 219B5C5A2946F07600CE62C4 /* Namota Project.app */;
+			productReference = 219B5C5A2946F07600CE62C4 /* Multiplication_Table_Project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		219B5C6F2946F07700CE62C4 /* Namota ProjectTests */ = {
+		219B5C6F2946F07700CE62C4 /* Multiplication_Table_ProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 219B5C872946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectTests" */;
+			buildConfigurationList = 219B5C872946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Multiplication_Table_ProjectTests" */;
 			buildPhases = (
 				219B5C6C2946F07700CE62C4 /* Sources */,
 				219B5C6D2946F07700CE62C4 /* Frameworks */,
@@ -160,14 +176,14 @@
 			dependencies = (
 				219B5C722946F07700CE62C4 /* PBXTargetDependency */,
 			);
-			name = "Namota ProjectTests";
+			name = Multiplication_Table_ProjectTests;
 			productName = "Namota ProjectTests";
-			productReference = 219B5C702946F07700CE62C4 /* Namota ProjectTests.xctest */;
+			productReference = 219B5C702946F07700CE62C4 /* Multiplication_Table_ProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		219B5C792946F07700CE62C4 /* Namota ProjectUITests */ = {
+		219B5C792946F07700CE62C4 /* Multiplication_Table_ProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 219B5C8A2946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectUITests" */;
+			buildConfigurationList = 219B5C8A2946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Multiplication_Table_ProjectUITests" */;
 			buildPhases = (
 				219B5C762946F07700CE62C4 /* Sources */,
 				219B5C772946F07700CE62C4 /* Frameworks */,
@@ -178,9 +194,9 @@
 			dependencies = (
 				219B5C7C2946F07700CE62C4 /* PBXTargetDependency */,
 			);
-			name = "Namota ProjectUITests";
+			name = Multiplication_Table_ProjectUITests;
 			productName = "Namota ProjectUITests";
-			productReference = 219B5C7A2946F07700CE62C4 /* Namota ProjectUITests.xctest */;
+			productReference = 219B5C7A2946F07700CE62C4 /* Multiplication_Table_ProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 219B5C552946F07600CE62C4 /* Build configuration list for PBXProject "Namota Project" */;
+			buildConfigurationList = 219B5C552946F07600CE62C4 /* Build configuration list for PBXProject "Multiplication_Table_Project" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				219B5C592946F07600CE62C4 /* Namota Project */,
-				219B5C6F2946F07700CE62C4 /* Namota ProjectTests */,
-				219B5C792946F07700CE62C4 /* Namota ProjectUITests */,
+				219B5C592946F07600CE62C4 /* Multiplication_Table_Project */,
+				219B5C6F2946F07700CE62C4 /* Multiplication_Table_ProjectTests */,
+				219B5C792946F07700CE62C4 /* Multiplication_Table_ProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		219B5C722946F07700CE62C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 219B5C592946F07600CE62C4 /* Namota Project */;
+			target = 219B5C592946F07600CE62C4 /* Multiplication_Table_Project */;
 			targetProxy = 219B5C712946F07700CE62C4 /* PBXContainerItemProxy */;
 		};
 		219B5C7C2946F07700CE62C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 219B5C592946F07600CE62C4 /* Namota Project */;
+			target = 219B5C592946F07600CE62C4 /* Multiplication_Table_Project */;
 			targetProxy = 219B5C7B2946F07700CE62C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namota Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Namota Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiplication_Table_Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multiplication_Table_Project";
 			};
 			name = Debug;
 		};
@@ -518,7 +534,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namota Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Namota Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiplication_Table_Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multiplication_Table_Project";
 			};
 			name = Release;
 		};
@@ -559,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		219B5C552946F07600CE62C4 /* Build configuration list for PBXProject "Namota Project" */ = {
+		219B5C552946F07600CE62C4 /* Build configuration list for PBXProject "Multiplication_Table_Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				219B5C822946F07700CE62C4 /* Debug */,
@@ -568,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		219B5C842946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota Project" */ = {
+		219B5C842946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Multiplication_Table_Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				219B5C852946F07700CE62C4 /* Debug */,
@@ -577,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		219B5C872946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectTests" */ = {
+		219B5C872946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Multiplication_Table_ProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				219B5C882946F07700CE62C4 /* Debug */,
@@ -586,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		219B5C8A2946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectUITests" */ = {
+		219B5C8A2946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Multiplication_Table_ProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				219B5C8B2946F07700CE62C4 /* Debug */,
