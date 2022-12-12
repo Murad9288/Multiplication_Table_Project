@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219B5C5E2946F07600CE62C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5C5D2946F07600CE62C4 /* AppDelegate.swift */; };
+		219B5C602946F07600CE62C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5C5F2946F07600CE62C4 /* SceneDelegate.swift */; };
+		219B5C622946F07600CE62C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5C612946F07600CE62C4 /* ViewController.swift */; };
+		219B5C652946F07600CE62C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219B5C632946F07600CE62C4 /* Main.storyboard */; };
+		219B5C672946F07700CE62C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219B5C662946F07700CE62C4 /* Assets.xcassets */; };
+		219B5C6A2946F07700CE62C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219B5C682946F07700CE62C4 /* LaunchScreen.storyboard */; };
+		219B5C752946F07700CE62C4 /* Namota_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5C742946F07700CE62C4 /* Namota_ProjectTests.swift */; };
+		219B5C7F2946F07700CE62C4 /* Namota_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5C7E2946F07700CE62C4 /* Namota_ProjectUITests.swift */; };
+		219B5C812946F07700CE62C4 /* Namota_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B5C802946F07700CE62C4 /* Namota_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219B5C712946F07700CE62C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219B5C522946F07600CE62C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219B5C592946F07600CE62C4;
+			remoteInfo = "Namota Project";
+		};
+		219B5C7B2946F07700CE62C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219B5C522946F07600CE62C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219B5C592946F07600CE62C4;
+			remoteInfo = "Namota Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219B5C5A2946F07600CE62C4 /* Namota Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Namota Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5C5D2946F07600CE62C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		219B5C5F2946F07600CE62C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		219B5C612946F07600CE62C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		219B5C642946F07600CE62C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219B5C662946F07700CE62C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219B5C692946F07700CE62C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219B5C6B2946F07700CE62C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219B5C702946F07700CE62C4 /* Namota ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Namota ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5C742946F07700CE62C4 /* Namota_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namota_ProjectTests.swift; sourceTree = "<group>"; };
+		219B5C7A2946F07700CE62C4 /* Namota ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Namota ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B5C7E2946F07700CE62C4 /* Namota_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namota_ProjectUITests.swift; sourceTree = "<group>"; };
+		219B5C802946F07700CE62C4 /* Namota_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namota_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219B5C572946F07600CE62C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5C6D2946F07700CE62C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5C772946F07700CE62C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219B5C512946F07600CE62C4 = {
+			isa = PBXGroup;
+			children = (
+				219B5C5C2946F07600CE62C4 /* Namota Project */,
+				219B5C732946F07700CE62C4 /* Namota ProjectTests */,
+				219B5C7D2946F07700CE62C4 /* Namota ProjectUITests */,
+				219B5C5B2946F07600CE62C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219B5C5B2946F07600CE62C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219B5C5A2946F07600CE62C4 /* Namota Project.app */,
+				219B5C702946F07700CE62C4 /* Namota ProjectTests.xctest */,
+				219B5C7A2946F07700CE62C4 /* Namota ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219B5C5C2946F07600CE62C4 /* Namota Project */ = {
+			isa = PBXGroup;
+			children = (
+				219B5C5D2946F07600CE62C4 /* AppDelegate.swift */,
+				219B5C5F2946F07600CE62C4 /* SceneDelegate.swift */,
+				219B5C612946F07600CE62C4 /* ViewController.swift */,
+				219B5C632946F07600CE62C4 /* Main.storyboard */,
+				219B5C662946F07700CE62C4 /* Assets.xcassets */,
+				219B5C682946F07700CE62C4 /* LaunchScreen.storyboard */,
+				219B5C6B2946F07700CE62C4 /* Info.plist */,
+			);
+			path = "Namota Project";
+			sourceTree = "<group>";
+		};
+		219B5C732946F07700CE62C4 /* Namota ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				219B5C742946F07700CE62C4 /* Namota_ProjectTests.swift */,
+			);
+			path = "Namota ProjectTests";
+			sourceTree = "<group>";
+		};
+		219B5C7D2946F07700CE62C4 /* Namota ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				219B5C7E2946F07700CE62C4 /* Namota_ProjectUITests.swift */,
+				219B5C802946F07700CE62C4 /* Namota_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "Namota ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219B5C592946F07600CE62C4 /* Namota Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B5C842946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota Project" */;
+			buildPhases = (
+				219B5C562946F07600CE62C4 /* Sources */,
+				219B5C572946F07600CE62C4 /* Frameworks */,
+				219B5C582946F07600CE62C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Namota Project";
+			productName = "Namota Project";
+			productReference = 219B5C5A2946F07600CE62C4 /* Namota Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219B5C6F2946F07700CE62C4 /* Namota ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B5C872946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectTests" */;
+			buildPhases = (
+				219B5C6C2946F07700CE62C4 /* Sources */,
+				219B5C6D2946F07700CE62C4 /* Frameworks */,
+				219B5C6E2946F07700CE62C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219B5C722946F07700CE62C4 /* PBXTargetDependency */,
+			);
+			name = "Namota ProjectTests";
+			productName = "Namota ProjectTests";
+			productReference = 219B5C702946F07700CE62C4 /* Namota ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		219B5C792946F07700CE62C4 /* Namota ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B5C8A2946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectUITests" */;
+			buildPhases = (
+				219B5C762946F07700CE62C4 /* Sources */,
+				219B5C772946F07700CE62C4 /* Frameworks */,
+				219B5C782946F07700CE62C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219B5C7C2946F07700CE62C4 /* PBXTargetDependency */,
+			);
+			name = "Namota ProjectUITests";
+			productName = "Namota ProjectUITests";
+			productReference = 219B5C7A2946F07700CE62C4 /* Namota ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219B5C522946F07600CE62C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					219B5C592946F07600CE62C4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					219B5C6F2946F07700CE62C4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 219B5C592946F07600CE62C4;
+					};
+					219B5C792946F07700CE62C4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 219B5C592946F07600CE62C4;
+					};
+				};
+			};
+			buildConfigurationList = 219B5C552946F07600CE62C4 /* Build configuration list for PBXProject "Namota Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219B5C512946F07600CE62C4;
+			productRefGroup = 219B5C5B2946F07600CE62C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219B5C592946F07600CE62C4 /* Namota Project */,
+				219B5C6F2946F07700CE62C4 /* Namota ProjectTests */,
+				219B5C792946F07700CE62C4 /* Namota ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219B5C582946F07600CE62C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B5C6A2946F07700CE62C4 /* LaunchScreen.storyboard in Resources */,
+				219B5C672946F07700CE62C4 /* Assets.xcassets in Resources */,
+				219B5C652946F07600CE62C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5C6E2946F07700CE62C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5C782946F07700CE62C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219B5C562946F07600CE62C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B5C622946F07600CE62C4 /* ViewController.swift in Sources */,
+				219B5C5E2946F07600CE62C4 /* AppDelegate.swift in Sources */,
+				219B5C602946F07600CE62C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5C6C2946F07700CE62C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B5C752946F07700CE62C4 /* Namota_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B5C762946F07700CE62C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B5C812946F07700CE62C4 /* Namota_ProjectUITestsLaunchTests.swift in Sources */,
+				219B5C7F2946F07700CE62C4 /* Namota_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219B5C722946F07700CE62C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219B5C592946F07600CE62C4 /* Namota Project */;
+			targetProxy = 219B5C712946F07700CE62C4 /* PBXContainerItemProxy */;
+		};
+		219B5C7C2946F07700CE62C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219B5C592946F07600CE62C4 /* Namota Project */;
+			targetProxy = 219B5C7B2946F07700CE62C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219B5C632946F07600CE62C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219B5C642946F07600CE62C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219B5C682946F07700CE62C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219B5C692946F07700CE62C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219B5C822946F07700CE62C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		219B5C832946F07700CE62C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219B5C852946F07700CE62C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Namota Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Namota-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219B5C862946F07700CE62C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Namota Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Namota-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		219B5C882946F07700CE62C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Namota-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namota Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Namota Project";
+			};
+			name = Debug;
+		};
+		219B5C892946F07700CE62C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Namota-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namota Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Namota Project";
+			};
+			name = Release;
+		};
+		219B5C8B2946F07700CE62C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Namota-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Namota Project";
+			};
+			name = Debug;
+		};
+		219B5C8C2946F07700CE62C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.murad.www.Namota-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Namota Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219B5C552946F07600CE62C4 /* Build configuration list for PBXProject "Namota Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5C822946F07700CE62C4 /* Debug */,
+				219B5C832946F07700CE62C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219B5C842946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5C852946F07700CE62C4 /* Debug */,
+				219B5C862946F07700CE62C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219B5C872946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5C882946F07700CE62C4 /* Debug */,
+				219B5C892946F07700CE62C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219B5C8A2946F07700CE62C4 /* Build configuration list for PBXNativeTarget "Namota ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B5C8B2946F07700CE62C4 /* Debug */,
+				219B5C8C2946F07700CE62C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219B5C522946F07600CE62C4 /* Project object */;
+}
